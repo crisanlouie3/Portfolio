@@ -1,0 +1,426 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+}
+
+.bg {
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* navbar */
+.dv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hf {
+    font-size: 17px;
+    padding: 15px 30px;
+    color: black;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    font-size: 17px;
+}
+
+.nav li {
+    padding: 15px 30px;
+    margin-right: 0px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.nav a:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+    .dv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 40px;
+    }
+}
+
+/* navbar2 */
+
+.dv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hf3 {
+    font-size: 17px;
+    padding: 15px 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.nav2 {
+    display: flex;
+    list-style-type: none;
+    font-size: 17px;
+}
+
+.nav2 li {
+    padding: 15px 30px;
+    margin-right: 0px;
+}
+
+.nav2 li a {
+    text-decoration: none;
+    color: white;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.nav2 a:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+
+    .nav2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 40px;
+    }
+}
+
+/*  */
+
+.hf2 {
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 150px;
+    color: black;
+}
+
+.pf {
+    font-size: 30px;
+    margin-left: 30px;
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .hf2 {
+        font-size: 35px;
+        margin-left: 30px;
+        margin-top: 100px;
+        color: black;
+    }
+    
+    .pf {
+        font-size: 25px;
+        margin-left: 30px;
+        color: black;
+    }
+}
+
+/*  */
+
+.img {
+    cursor: pointer;
+    margin-top: 150px;
+    margin-left: 150px;
+    width: 200px;
+    height: 50px;
+}
+
+/*  */
+
+.bg2 {
+    background-image: url('about.jpg');
+    max-width: 200%;
+    height: 400px;
+}
+
+.bg2 {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+    .bg2 {
+        background-image: url('about.jpg');
+        max-width: 200%;
+        height: 500px;
+    }
+}
+
+.hf4 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.dv2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dv3 {
+    margin-left: 15px;
+    width: 600px;
+    height: 600px;
+}
+
+.img2 {
+    margin-left:60px;
+    margin-top: 10px;
+    width: 480px;
+    height: 580px;
+}
+
+.hf5 {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.pf2 {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .dv2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dv3 {
+        margin-left: 15px;
+        width: 600px;
+        height: 600px;
+    }
+    
+    .img2 {
+        margin-left:60px;
+        margin-top: 10px;
+        width: 480px;
+        height: 580px;
+    }
+    
+    .hf5 {
+        font-size: 30px;
+        color: black;
+        text-align: center;
+        margin-top: 60px;
+    }
+    
+    .pf2 {
+        font-size: 25px;
+        color: black;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .dv2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dv3 {
+        margin-left: 15px;
+        width: 430px;
+        height: 400px;
+    }
+    
+    .img2 {
+        margin-left:80px;
+        margin-top: 10px;
+        width: 280px;
+        height: 380px;
+    }
+    
+    .hf5 {
+        font-size: 25px;
+        color: black;
+        text-align: center;
+        margin-top: 60px;
+    }
+    
+    .pf2 {
+        font-size: 17px;
+        color: black;
+        text-align: center;
+    }
+}
+
+/*  */
+
+.bg3 {
+    background-image: url('portfolio.jpg');
+    max-height: 200%;
+    height: 400px;
+}
+
+.bg3 {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+    .bg3 {
+        background-image: url('portfolio.jpg');
+        max-width: 200%;
+        height: 500px;
+    }
+}
+
+.dv4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dv5 {
+    margin-left: 15px;
+    width: 395px;
+    height: 500px;
+}
+
+.hf6 {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.img3 {
+    margin-left: 45px;
+    width: 300px;
+    height: 400px;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.img3:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+    .dv4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .dv5 {
+        margin-left: 15px;
+        width: 395px;
+        height: 500px;
+    }
+    
+    .hf6 {
+        text-align: center;
+        font-size: 30px;
+        color: black;
+    }
+    
+    .img3 {
+        margin-left: 45px;
+        width: 300px;
+        height: 400px;
+        opacity: 1;
+        transition: all 0.3s ease 0s;
+    }
+    
+    .img3:hover {
+        opacity: 0.5;
+    }
+}
+
+/*  */
+
+.bg4 {
+    background-image: url('skills.jpg');
+    max-height: 200%;
+    height: 400px;
+}
+
+.bg4 {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+    .bg4 {
+        background-image: url('skills.jpg');
+        max-width: 200%;
+        height: 500px;
+    }
+}
+
+.pf3 {
+    text-align: center;
+    font-size: 17px;
+    color: black;
+}
+
+.dv6 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dv7 {
+    margin-left: 15px;
+    width: 395px;
+    height: 220px;
+}
+
+.hf6 {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .dv6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .dv7 {
+        margin-left: 15px;
+        width: 395px;
+        height: 220px;
+    }
+    
+    .hf6 {
+        text-align: center;
+        font-size: 30px;
+        color: black;
+    }
+    
+}
